@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+  }
+  nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+    font-size: 20pt;
+  }
+  .nav-link {
+    color: purple;
+    text-decoration: none;
+    font-family: "Acme", sans-serif;
+  }
+  .nav-link:hover {
+    color: #ff0066;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: #d400ff;
+  }
+  #brand .nav-link:hover {
+    color: #f54289;
+  }
+  h1 {
+    font-size: 60pt;
+    font-family: "Acme", sans-serf;
+  }
+  #home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url("https://lh3.googleusercontent.com/deAxYU8V5LCusUPwwV89HzpmuXhZ2I2um2OwjgsyTgnJRUsewebuyIvDPd_1gJnRe8Z9IwCqN1LkORqKnu4LQjyP4-6NzPxp6hr6lsju6HZlBI4QifQjNg08TptgHORNfZHAQAlMrzzF_3KnqqhXM3qWfbsXdA-2sLf32203hUCraVljZ2IJdZwUsdsS_KeBoiPFrY7QFv9GbTw3yDGvsj0oF8qxYoXT-Ct5zAcw9LETafff6BPQPuyEcZ_W040uukXAzkrDZ4InBSqjD3uWUyUPG7z13BV28kZVwJm4gl0PDyrSsc1e3BdLGL9m5onKngbbuUqj9ujfYFwke0yW3Wp6edG1xG_3a6Np2616NkNM-d113oA-oZ6U8mHRVuVFQk9fnxXOXCpbJhAATIHcZgRfMXN91K6bP1428_5XUXfhmlXXxG-jEt-aSuzbPCfEUrQwXA_OdvW4tfTYMwsCcG7eUxpifPCkpp-H3SUSp6f4mQLlycxOSBoaa_kS-LMVpYJ1kSUKn0yGYe6fihbpJjM2OMrZUAL3LBo_afJbt_dZ2ksiiDTveV4sooN25uqhcdT84_u04PuBfqX8SMJNFj5rOhpEenQq350wjyI9fUBuuGplHe0OLQOqkX7I3xhOWjJNYu5ec_gQDbe6X_bw1huEXL4rSZoQ0N4LwcvhXkjW7ed4gFSnvmdUCupEy0GJAyTZtS0Gp-vPxaOBqIDZOorafPGy8-91mc5XR-OqfHSdvPDsvLdTbUQ=w1580-h889-no") center 75% no-repeat fixed;
+   background-size: cover;
+  }
+  .header-tag {
+    margin-top: -25px;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 2px 2px 2px black;
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2{
+    font-family: 'Acme', sans-serif;
+    color:  purple;
+  }
+  main{
+      text-align: center;
+  }
+  #about{
+      margin-top: 50px;
+      display: inline-block; 
+  }
+  #about-picture{
+      width: 30vw;
+      float: left;
+  }
+  #profile-pic{
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 0.4em;
+      box-shadow: 2px 2px 2px black;
+  }
+  #about-content{
+      width: 40vw;
+      float: right;
+      text-decoration-color: antiquewhite;
+  }
+  p{
+      font-family: 'Acme', sans-serif;
+      color: rgb(241, 234, 224);
+  }
+ 
+  
